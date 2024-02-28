@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:textColor="@color/black"
-        tools:text="Birth_Year : "
+        android:text="Birth_Year : "
         app:layout_constraintEnd_toStartOf="@+id/birth_year"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -48,7 +48,7 @@
         app:layout_constraintEnd_toStartOf="@+id/gender"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:text="Gender :" />
+        android:text="Gender :" />
 
     <TextView
         android:id="@+id/textView5"
@@ -59,7 +59,7 @@
         app:layout_constraintEnd_toStartOf="@+id/height"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        tools:text="Height :" />
+        android:text="Height :" />
 
     <TextView
         android:id="@+id/height"

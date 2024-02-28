@@ -11,6 +11,7 @@
         android:layout_width="408dp"
         android:layout_height="579dp"
         android:layout_marginTop="70dp"
+        android:paddingLeft="25dp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
